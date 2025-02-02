@@ -76,8 +76,8 @@ class _MyAppState extends State<MyApp> {
 
                         smsUserConsent.requestSms();
 
-                        Scaffold.of(context).showSnackBar(
-                            SnackBar(content: Text('Listening for SMS...')));
+                        // Scaffold.of(context).showSnackBar(
+                        //     SnackBar(content: Text('Listening for SMS...')));
                       }))
             ])));
   }
